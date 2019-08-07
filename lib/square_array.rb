@@ -1,9 +1,9 @@
-def square_array(array)
-  arr = [1, 2, 3]
+def square_array(array) 
   i = 0
 
-  while (i < arr.length)
-    puts arr[i] ** 2
+  while (i < array.length)
+    puts array[i] ** 2
     i += 1
   end
 end
+square_array([1, 2, 3])
