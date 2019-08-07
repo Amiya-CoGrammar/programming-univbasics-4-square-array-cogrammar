@@ -5,5 +5,6 @@ def square_array(array)
     puts array[i] ** 2
     i += 1
   end
+  square_array([1, 2, 3])
 end
-square_array([1, 2, 3])
+
