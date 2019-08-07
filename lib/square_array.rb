@@ -1,9 +1,9 @@
 def square_array(array)
-  my_arr = [1, 2, 3]
+  arr = [1, 2, 3]
+  i = 0
 
-  while (my_arr)
-     array = [1,2,3,4,5]
-     array.each do|num|puts
-     num ** 2end
-   end
+  while (i < arr.length)
+    puts arr[i] ** 2
+    i += 1
+  end
 end
